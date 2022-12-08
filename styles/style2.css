@@ -1,0 +1,42 @@
+ul.navs{
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin: 0; padding: 0;
+}
+ul.navs li{
+    margin: 30 0; padding: 0;
+    padding: 20 0;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Roboto';
+    cursor: pointer;
+    border-left: 5px solid transparent;
+
+}
+li:hover{
+    /* background-color: rgba(0,0,0,0.5); */
+    font-weight:900;
+    border-left: 7px solid black !important;
+
+}
+li.active{
+    border-left: 5px solid black !important;
+}
+.el-type{
+    /* height: 100%; */
+    text-decoration: none;
+    list-style: none;
+    margin: 0; padding: 0;
+    margin-top: 30%;
+}
+ul.el-type li{
+    margin: 40 0;
+}
+.val{
+    font-family: "Abril Fatface";
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50;
+}
